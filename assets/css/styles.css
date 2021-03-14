@@ -1,0 +1,54 @@
+ ::-webkit-scrollbar {
+   width: 10px;
+   background-color: #eff1f5;
+ }
+/* 定义滚动条轨道 */
+ ::-webkit-scrollbar-track {
+   background-color: transparent;
+   border-radius: 3px;
+ }
+/* 定义滑块 */
+ ::-webkit-scrollbar-thumb {
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background: #5850ec;
+   border: 2px solid #eff1f5;
+ }
+::-webkit-scrollbar-thumb:hover{
+  background: #63b3ed;
+}
+html, body {
+  scroll-behavior: smooth;
+}
+.fade {
+  &-enter-active,
+  &-leave-active {
+    transition: all .3s cubic-bezier(.55, 0, .1, 1);
+  }
+  &-enter,
+  &-leave-active {
+    opacity: 0;
+  }
+}
+.layout, .page {
+  &-enter-active,
+  &-leave-active {
+    transition: all .3s cubic-bezier(.55, 0, .1, 1);
+  }
+  &-enter,
+  &-leave-active {
+    opacity: 0;
+  }
+}
+.text {
+  color: #ff5900;
+  text-shadow: 0 1px hsl(0, 0%, 85%), 0 2px hsl(0, 0%, 80%), 0 3px hsl(0, 0%, 75%),
+    0 4px hsl(0, 0%, 70%), 0 5px hsl(0, 0%, 65%), 0 5px 10px black;
+}
+/* 阿里iconfont样式 固定格式不要动 */
+/* .icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+} */

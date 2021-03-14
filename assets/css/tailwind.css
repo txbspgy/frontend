@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-card {
+  @apply absolute z-0 inset-0 bg-gradient-to-r from-green-300 to-blue-500 shadow-md transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-xl
+}
+.btn{
+  @apply inline-block px-2 py-1 rounded-lg  hover:-translate-y-0.5 focus:outline-none focus:ring focus:ring-offset-2 transform transition  uppercase  tracking-wider font-semibold text-sm sm:text-base
+}
+.btn-primary{
+  @apply bg-indigo-500   hover:bg-indigo-400 active:bg-indigo-600 focus:ring-indigo-500 text-white focus:ring-opacity-50
+}
+.btn-secondary{
+  @apply  bg-gray-300   hover:bg-gray-200  active:bg-gray-400  focus:ring-gray-300  text-gray-700  focus:ring-opacity-50
+}
+.card {
+  @apply overflow-hidden rounded-lg;
+  @apply duration-300 ease-out transform scale-100;
+}
+.input {
+  @apply relative w-1/2 px-3 py-3 text-sm text-gray-700 bg-white rounded shadow outline-none ;
+}
+
+}
