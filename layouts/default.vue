@@ -4,7 +4,7 @@
     <keep-alive>
       <nuxt keep-alive />
     </keep-alive>
-    <Load />
+    <go-top />
     <Footbar class="space-y-4" />
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   name: 'App',
   components: {
     Navbar,
-    Load: () => import('./sections/Load.vue'),
+    goTop: () => import('./sections/goTop.vue'),
     Footbar: () => import('./sections/Footbar.vue')
   },
   head() {

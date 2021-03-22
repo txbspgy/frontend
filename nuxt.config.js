@@ -43,7 +43,7 @@ export default {
       amp: true
     },
     bodyAttrs: {
-      class: ['antialiased', 'bg-gray-100']
+      class: ['antialiased', 'bg-gray-100', 'dark:bg-gray-800']
     }
   },
   loading: { color: '#1890FF' },

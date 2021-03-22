@@ -17,7 +17,7 @@
       <div
         v-for="item in items.slice(0, 8)"
         :key="item.id"
-        class="w-full px-0 my-2 transition-transform duration-300 ease-in-out transform hover:-translate-y-1 md:w-1/2 lg:my-2 lg:px-2 lg:w-1/2 lg:flex"
+        class="w-full px-0 my-2 transition-transform duration-300 ease-in-out transform hover:-translate-y-2 md:w-1/2 lg:my-2 lg:px-2 lg:w-1/2 lg:flex"
       >
         <figure
           class="relative flex-none h-48 overflow-hidden text-center bg-cover rounded-lg lg:h-auto lg:w-48"
