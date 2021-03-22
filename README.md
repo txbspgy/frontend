@@ -1,5 +1,3 @@
-strapi名字txbspgy@gmail.com
-      密码Wcb372502
 
 
 1,logo图标
