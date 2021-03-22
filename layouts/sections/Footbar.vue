@@ -3,9 +3,9 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h4 class="text-3xl font-semibold">请保持联系!</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
-            Find us on any of these platforms, we respond 1-2 business days.
+            在任何这些平台上找到我们，我们将在1-2个工作日内答复.
           </h5>
           <div class="mt-6">
             <button
@@ -37,9 +37,7 @@
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">
             <div class="w-full lg:w-4/12 px-4 ml-auto">
-              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">
-                Useful Links
-              </span>
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">友情链接</span>
               <ul class="list-unstyled">
                 <li>
                   <a
@@ -76,9 +74,7 @@
               </ul>
             </div>
             <div class="w-full lg:w-4/12 px-4">
-              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">
-                Other Resources
-              </span>
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">更多朋友</span>
               <ul class="list-unstyled">
                 <li>
                   <a
@@ -121,11 +117,11 @@
       <div class="flex flex-wrap items-center md:justify-between justify-center">
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {{ date }} Tailwind Starter Kit by
+            Copyright © {{ date }}
             <a href="https://www.creative-tim.com" class="text-gray-600 hover:text-gray-900">
-              Creative Tim
+              临清云
             </a>
-            .
+            欢迎您 .
           </div>
         </div>
       </div>
